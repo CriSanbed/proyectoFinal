@@ -21,6 +21,7 @@ class Home extends StatelessWidget {
                   style: TextStyle(fontSize: 25, color: Colors.yellow)),
             ),
             Container(
+              width: 200,
               child: Column(
                 children: [
                   Container(
@@ -31,6 +32,7 @@ class Home extends StatelessWidget {
                   ),
                   Container(
                     height: 100,
+                    width: 200,
                     child: Image(
                       fit: BoxFit.cover,
                       image: AssetImage("assets/img/1.jpeg"),
@@ -40,6 +42,7 @@ class Home extends StatelessWidget {
               ),
             ),
             Container(
+              width: 200,
               child: Column(
                 children: [
                   Container(
@@ -51,6 +54,7 @@ class Home extends StatelessWidget {
                   ),
                   Container(
                     height: 100,
+                    width: 200,
                     child: Image(
                       fit: BoxFit.cover,
                       image: AssetImage("assets/img/2.jpg"),
@@ -60,6 +64,7 @@ class Home extends StatelessWidget {
               ),
             ),
             Container(
+              width: 200,
               child: Column(
                 children: [
                   Container(
@@ -71,6 +76,7 @@ class Home extends StatelessWidget {
                   ),
                   Container(
                     height: 100,
+                    width: 200,
                     child: Image(
                       fit: BoxFit.cover,
                       image: AssetImage("assets/img/3.jpg"),
@@ -80,6 +86,7 @@ class Home extends StatelessWidget {
               ),
             ),
             Container(
+              width: 200,
               child: Column(
                 children: [
                   Container(
@@ -91,6 +98,7 @@ class Home extends StatelessWidget {
                   ),
                   Container(
                     height: 100,
+                    width: 200,
                     child: Image(
                       fit: BoxFit.cover,
                       image: AssetImage("assets/img/4.jpg"),
