@@ -10,12 +10,12 @@ import 'gradiente.dart';
 final texto = '''
 Para lograr estos objetivos se usan lo siguientes mecanismos...
 
-            * Encriptación
-            * Copias de seguridad
-            * Antivirus
-            * Cortafuegos o firewall
-            * Servidores proxys
-            * Firma electrónica o certificado digital
+            * Encriptación.
+            * Copias de seguridad.
+            * Antivirus.
+            * Cortafuegos o firewall.
+            * Servidores proxys.
+            * Firma electrónica o certificado digital.
 ''';
 
 class Cardlist extends StatelessWidget {
@@ -50,7 +50,7 @@ class Cardlist extends StatelessWidget {
               text: TextSpan(
                 text: texto,
                 style: TextStyle(
-                  fontSize: 15,
+                  fontSize: 16,
                   fontFamily: 'Quantico',
                 ),
               )),
@@ -68,6 +68,8 @@ class Cardlist extends StatelessWidget {
                     textAlign: TextAlign.center,
                     overflow: TextOverflow.ellipsis,
                     style: TextStyle(
+                        fontFamily: "Redresed",
+                        fontSize: 25,
                         decoration: TextDecoration.underline,
                         color: Colors.yellowAccent[400])),
                 onTap: () {

@@ -18,23 +18,86 @@ class Home extends StatelessWidget {
               child: Text('''SEGURIDAD INFORMATICA''',
                   textAlign: TextAlign.center,
                   overflow: TextOverflow.ellipsis,
-                  style: TextStyle(
-                      fontFamily: "Akayas", fontSize: 20, color: Colors.white)),
+                  style: TextStyle(fontSize: 25, color: Colors.yellow)),
             ),
-            Stack(
-              children: [
-                Container(
-                  child: Image(
-                    fit: BoxFit.cover,
-                    image: AssetImage("assets/img/1.jpeg"),
+            Container(
+              child: Column(
+                children: [
+                  Container(
+                    child: Text("Confidencialidad",
+                        textAlign: TextAlign.center,
+                        overflow: TextOverflow.ellipsis,
+                        style: TextStyle(fontSize: 18, color: Colors.white)),
                   ),
-                ),
-                /*Container(
-                  //margen q me permite bajar un poco el click here de la imagen
-                  margin: EdgeInsets.only(top: 400),
-                  child: BotonInk('Click here!!'),
-                )*/
-              ],
+                  Container(
+                    height: 100,
+                    child: Image(
+                      fit: BoxFit.cover,
+                      image: AssetImage("assets/img/1.jpeg"),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+            Container(
+              child: Column(
+                children: [
+                  Container(
+                    margin: EdgeInsets.only(top: 20),
+                    child: Text("Integridad",
+                        textAlign: TextAlign.center,
+                        overflow: TextOverflow.ellipsis,
+                        style: TextStyle(fontSize: 18, color: Colors.white)),
+                  ),
+                  Container(
+                    height: 100,
+                    child: Image(
+                      fit: BoxFit.cover,
+                      image: AssetImage("assets/img/2.jpg"),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+            Container(
+              child: Column(
+                children: [
+                  Container(
+                    margin: EdgeInsets.only(top: 20),
+                    child: Text("Disponibilidad",
+                        textAlign: TextAlign.center,
+                        overflow: TextOverflow.ellipsis,
+                        style: TextStyle(fontSize: 18, color: Colors.white)),
+                  ),
+                  Container(
+                    height: 100,
+                    child: Image(
+                      fit: BoxFit.cover,
+                      image: AssetImage("assets/img/3.jpg"),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+            Container(
+              child: Column(
+                children: [
+                  Container(
+                    margin: EdgeInsets.only(top: 20),
+                    child: Text("Autenticación",
+                        textAlign: TextAlign.center,
+                        overflow: TextOverflow.ellipsis,
+                        style: TextStyle(fontSize: 18, color: Colors.white)),
+                  ),
+                  Container(
+                    height: 100,
+                    child: Image(
+                      fit: BoxFit.cover,
+                      image: AssetImage("assets/img/4.jpg"),
+                    ),
+                  ),
+                ],
+              ),
             )
           ],
         )

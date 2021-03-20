@@ -38,7 +38,7 @@ class CardImg extends StatelessWidget {
             ),
             new FlatButton.icon(
               icon: const Icon(Icons.forward,
-                  size: 25.0, color: Colors.transparent),
+                  size: 200.0, color: Colors.transparent),
               label: const Text(
                 ' ',
                 textAlign: TextAlign.center,

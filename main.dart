@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:seg_informatica/loginScreen.dart';
+import 'package:seg_informatica/login.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(AppFinal3Parcial());
 }
 
-class MyApp extends StatelessWidget {
+class AppFinal3Parcial extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
@@ -32,10 +32,7 @@ class MyApp extends StatelessWidget {
             title: Text("Seguridad Info"),
           ),
           body: Stack(
-            children: [
-              //Home(),
-              LoginScreen()
-            ],
+            children: [Login()],
           ),
         ));
   }

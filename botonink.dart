@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:seg_informatica/navBar.dart';
-import 'pantalla1.dart';
 
 class BotonInk extends StatelessWidget {
   String inkText = 'Pantalla';

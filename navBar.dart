@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:seg_informatica/informativo.dart';
 import 'home.dart';
 import 'cardlist.dart';
-import 'pantalla1.dart';
 
 class NavBar extends StatefulWidget {
   @override
@@ -12,7 +12,7 @@ class NavBar extends StatefulWidget {
 
 class _NavBar extends State {
   int indexNavBar = 0;
-  final List<Widget> vistasWidget = [Home(), Cardlist(), Pantalla1()];
+  final List<Widget> vistasWidget = [Home(), Cardlist(), Informativo()];
   void onTapped(int index) {
     setState(() {
       indexNavBar = index;
